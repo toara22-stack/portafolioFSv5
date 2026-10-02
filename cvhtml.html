@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- BARRA PRINCIPAL-->
+    <header class="navbar">
+
+        <div class="avatar-container">
+            <div id="avatar" class="avatar-box" title="pase el mouse para ver el avatar">
+                    NG
+            </div>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="#inicio">INICIO</a>
+            <a href="#sobre-mi">SOBRE MI</a>
+            <a href="#habilidades">HABILIDADES</a>
+            <a href="#proyectos">PROYECTOS</a>
+            <a href="#experiencia">EXPERIENCIA</a>
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+    </header>
+
+    <!-- CONTENEDOR DE SECCIONES -->
+    <div class="sections-wrapper">
+
+        <!-- 1. PRIMERA PÁGINA: INICIO  -->
+        <section id="inicio" class="hero-container">
+            <div class="hero-content">
+                <h1>Construimos soluciones digitales que generan resultados.</h1>
+                <p>Consultora Informática enfocado en desarrollo web, automatización, bases de datos y transformación digital. Diseño soluciones seguras, escalables y orientadas al usuario.</p>
+                <a href="#proyectos" class="btn-proyectos">ver proyectos</a>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <div class="image-frame">
+                    <img src="img/Img1.jpg" alt="Soluciones digitales y tecnología">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. SEGUNDA PÁGINA: SOBRE MÍ  -->
+        <section id="sobre-mi" class="about-container">
+           
+            <div class="about-content">
+                <span class="section-subtitle">01 - Perfil</span>
+                <h2 class="section-title">Sobre mí</h2>
+                
+                <p class="description">
+                    Soy un profesional de tecnología orientado a convertir necesidades reales en soluciones digitales eficientes. Mi enfoque combina análisis de requerimientos, arquitectura de software, desarrollo, bases de datos y mejora continua.
+                </p>
+                <p class="description">
+                    Me interesa especialmente el desarrollo de plataformas web, sistemas administrativos, automatización de procesos y herramientas que faciliten la gestión de información. Trabajo con metodologías ordenadas, documentación técnica y una visión centrada en resultados.
+                </p>
+
+                <!-- Servicios -->
+                <div class="services-grid">
+                    <div class="service-item">
+                        <span class="service-number">01</span>
+                        <p class="service-text">Análisis y diseño</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-number">02</span>
+                        <p class="service-text">Desarrollo web</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-number">03</span>
+                        <p class="service-text">Base de datos</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-number">04</span>
+                        <p class="service-text">Soporte y optimizacion</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Columna Derecha: Fotografía -->
+            <div class="profile-sidebar">
+                <div class="profile-card">
+                    <img src="img/nelson.png" alt="Nelson Gutierrez Toara" class="profile-img">
+                    <h3 class="profile-name">Nelson Gutierrez Toara</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        3. SECCIÓN HABILIDADES 
+        ========================================== -->
+        <section id="habilidades" class="skills-container">
+            <span class="section-subtitle">02 - Capacidades</span>
+            <h2 class="section-title">Stack tecnológico</h2>
+            
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-purple">⌘</div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, Bootstrap, interfaces responsive y accesibles.</p>
+                </div>
+                <!-- Backend -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-blue">{ }</div>
+                    <h3>Backend</h3>
+                    <p>APIs, lógica de negocio, autenticación, validación y servicios web.</p>
+                </div>
+                <!-- Datos -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-purple-dark">DB</div>
+                    <h3>FDatos</h3>
+                    <p>Modelado relacional, SQL, consultas, respaldos y administración de bases de datos.</p>
+                </div>
+                <!-- DevOps y TI -->
+                <div class="skill-card">
+                    <div class="skill-icon icon-blue-light">↗</div>
+                    <h3>FDevOps y TI</h3>
+                    <p>Linux, Git, despliegues, mantenimiento, seguridad y documentación técnica.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        4. SECCIÓN PROYECTOS
+        ========================================== -->
+        <section id="proyectos" class="projects-container">
+            <span class="section-subtitle">03 - Proyectos</span>
+            <h2 class="section-title">Proyectos destacados</h2>
+            
+            <div class="project-featured-card">
+                <span class="project-category">SISTEMA WEB</span>
+                <h3 class="project-main-title">Plataforma de Gestión Institucional</h3>
+                <p class="project-description">
+                    Aplicación web para centralizar registros, seguimiento de procesos, usuarios y reportes. 
+                    Diseñada para reducir tareas manuales y mejorar la trazabilidad.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Dashboard</span>
+                </div>
+                <div class="project-carousel-controls">
+                    <button class="carousel-btn">&lt;</button>
+                    <button class="carousel-btn">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        5. SECCIÓN EXPERIENCIA
+        ========================================== -->
+        <section id="experiencia" class="experience-container">
+            <span class="section-subtitle">04 - Experiencia</span>
+            <h2 class="section-title">Experiencia profesional</h2>
+            
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2024 - 2026</div>
+                    <div class="timeline-details">
+                        <h3>Ingeniero de Sistemas / Desarrollador</h3>
+                        <p>Desarrollo y mantenimiento de sistemas, soporte tecnológico, gestión de información y documentación técnica.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2022 - 2024</div>
+                    <div class="timeline-details">
+                        <h3>Analista de Sistemas</h3>
+                        <p>Análisis de requerimientos, soporte a usuarios, bases de datos y mejora de procesos.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2020 - 2022</div>
+                    <div class="timeline-details">
+                        <h3>Soporte Técnico / TI</h3>
+                        <p>Mantenimiento preventivo y correctivo, instalación de software, redes y asistencia a usuarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        6. SECCIÓN CONTACTO
+        ========================================== -->
+        <section id="contacto" class="contact-container">
+            <span class="section-subtitle">05 - Contacto</span>
+            <h2 class="section-title">Contacto</h2>
+            
+            <div class="contact-layout">
+     
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"></div>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Calle Rafael Pavon s/n, Potosi-Bolivia</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"></div>                       
+                        <div>
+                            <h4>Celular</h4>
+                            <p>72416612</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"></div>
+                        
+                        <div>
+                            <h4>Correo electrónico</h4>
+                            <p>toara22@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+  
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="form-name">Nombre</label>
+                        <input type="text" id="form-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-email">Correo</label>
+                        <input type="email" id="form-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-message">Mensaje</label>
+                        <input type="menssage" id="form-message">
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
